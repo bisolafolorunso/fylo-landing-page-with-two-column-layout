@@ -50,6 +50,21 @@
     width: 50%;
     padding-top: 60px;
 }
+
+.second-image{
+    animation-name: second-image;
+    animation-duration: 4.5s;
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes second-image{
+    from{ transform: rotate(20);}
+    to{transform: rotate(360deg);}
+}
+
+
 .second-nav h1{
     font-size: 35px;
     font-weight: 700;
