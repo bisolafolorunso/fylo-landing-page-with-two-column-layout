@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    max-width: 1440px;
+}
+
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-nav-right{
+    display: flex;
+    gap: 3em;
+    font-weight: 700;
+    color: black;
+}
+
+.header-nav-right a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.nav{
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: auto;
+    padding-top: 30px;
+
+}
+
+.second-section{
+    padding-top: 50px;
+    display: flex;
+    line-height: 25px;
+}
+
+.second-nav{
+    width: 50%;
+    padding-top: 60px;
+}
+
+.second-image{
+    width: 50%;
+}
+
+input{
+    width: 250px;
+    height: 35px;
+}
+
+button{
+    background-color: hsl(224, 93%, 58%);
+    color: white;
+    width: 120px;
+    height:35px;
+    border: none;
+    border-radius: 3px;
+    margin-left: 13px;
+}
+
+.third-section{
+    padding-top: 50px;
+    display: flex;
+    line-height: 25px;
+    margin-top: 50px;
+    background-image: url(bg-curve-desktop.svg);
+}
+
+.third-nav{
+    width: 50%;
+    padding-top: 60px;
+}
+
+ 
+.container{
+    height: 230px;
+    background-color: Light Gray: hsl(0, 0%, 75%);
+    margin-top: 30px;
+    padding-left: 25px;
+    padding-right: 25px;
+    width: 380px;
+    padding-top: 20px;
+    box-shadow: 2px 2px 7px 1px gray;
+}
+
+.third-image{
+    display: flex;
+    justify-items: end;
+    margin-top: 5px;
+}
+
+.fourth-image{
+    width: 50%;
+
+}
+
+.picture{
+    border-radius: 200%;
+    width: 40px;
+    margin-top: 20px;
+}
+
+.caption{
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+
+
+.first-footer{
+    width: 100%;
+    height: 300px;
+    background-color:  hsl(238, 22%, 44%);
+    margin-top: 50px;
+    padding: 4rem 6rem 4rem 3rem;
+    margin-left: 0;
+}
+
+.inbox{
+    display: flex;
+    gap: 15em;
+    color: white;
+}
+
+.button-2{
+    width: 100%;
+    width: 150px;
+    height:50px;
+    margin-left: 0;
+}
+
+.second-footer{
+    background-color: hsl(243, 87%, 12%);
+    width: 100%;
+    height: 300px;
+    color: white;
+    padding: 4rem 6rem 4rem 3rem;
+}
+
+.second-footer a{
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+}
+
+.footer-end{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.logo-1{
+margin-top: -50px;
+
+}
+
+.logo-2{
+    filter: brightness(0) invert(1);
+}
+
+.links-left{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.links-middle{
+display: flex;
+flex-direction: column;
+}
+
+.links-right{
+    padding-left: 20px;
+    display: flex;
+    gap: 1em;
+    justify-content: flex-end;
+}
+
+.footer-end-links{
+    padding-top: 5px;
+}
