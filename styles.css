@@ -322,6 +322,7 @@ flex-direction: column;
     }
     .second-image img{
         width: 100%;
+        width: 100px;
         margin: 0 auto;
     }
     .third-nav h1{
